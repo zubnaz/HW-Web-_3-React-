@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    column-gap: 5px;
+    background-color: rgb(226, 222, 222);
+    color: black;
+    padding: 10px;
+}
+
+link {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 21px;
+    border: 1px solid black;
+}
