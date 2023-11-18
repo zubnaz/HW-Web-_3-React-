@@ -1,4 +1,4 @@
-div {
+div.menu {
     display: flex;
     column-gap: 5px;
     background-color: rgb(226, 222, 222);
@@ -6,10 +6,17 @@ div {
     padding: 10px;
 }
 
-link {
+div.menu a {
+    display: inline-block;
     text-decoration: none;
     padding: 5px;
     color: black;
     font-size: 21px;
     border: 1px solid black;
+    margin-left: 5px;
+    transition: all 0.1s;
+}
+
+div.menu a:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

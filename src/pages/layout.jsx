@@ -1,5 +1,5 @@
 import AddPictures from "./add-picture";
-import MostPictures from "./most-pictures";
+import MorePictures from "./more-pictures";
 import RootPage from "./root-page";
 import { Routes, Route, Outlet } from "react-router-dom";
 function Layout() {
@@ -7,10 +7,10 @@ function Layout() {
         <div>
             <Routes>
                 <Route exact path="/" element={<RootPage />}></Route>
-                <Route path="/most-pictures" element={<MostPictures />}></Route>
-                <Route path="/add-picture" element={<AddPictures />}></Route>
+                <Route path="more-pictures" element={<MorePictures />}></Route>
+                <Route path="add-picture" element={<AddPictures />}></Route>
             </Routes>
-            <Outlet />
+
         </div>
     );
 }

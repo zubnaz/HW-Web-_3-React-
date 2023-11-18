@@ -1,6 +1,8 @@
+import NewPicture from "./addPicture-pake-components/NewPicture";
+
 function AddPictures() {
     return (
-        <div></div>
+        <div><NewPicture /></div>
     );
 }
 export default AddPictures;

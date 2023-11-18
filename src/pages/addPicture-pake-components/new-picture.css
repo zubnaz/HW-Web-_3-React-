@@ -1,0 +1,45 @@
+div.add-new-picture {
+
+    padding: 30px;
+
+    background-color: rgb(173, 172, 172);
+    font-size: 21px;
+}
+
+div.add-new-picture h2 {
+    text-align: center;
+}
+
+div.add-new-picture form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    width: 100%;
+}
+
+div.add-new-picture form input {
+    padding: 10px 5px 10px 5px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 80%;
+}
+
+div.add-new-picture form button {
+    padding: 30px 10px 30px 10px;
+    width: 30%;
+    border-radius: 30px;
+    color: black;
+    font-size: 21px;
+    border: 1px solid black;
+    margin-left: 5px;
+    transition: all 0.1s;
+}
+
+div.add-new-picture form button:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

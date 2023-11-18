@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Layout from "./layout";
 import { Biographia } from "./root-page-components/bio";
 import { Paintings } from "./root-page-components/paintings";
@@ -5,11 +6,12 @@ import { Paintings } from "./root-page-components/paintings";
 function RootPage() {
     return (
         <div>
-            <Layout />
+
             <Biographia />
             <Paintings />
-
+            <Outlet />
         </div>
     );
 }
+//<Layout />
 export default RootPage;
