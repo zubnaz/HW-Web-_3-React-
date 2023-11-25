@@ -9,7 +9,7 @@ function RootPage() {
 
             <Biographia />
             <Paintings />
-            <Outlet />
+
         </div>
     );
 }

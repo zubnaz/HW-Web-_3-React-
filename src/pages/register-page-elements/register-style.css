@@ -1,0 +1,81 @@
+div.register {
+    width: 100%;
+    height: 100%;
+}
+
+div.register form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+div.register form div {
+    width: 50%;
+    height: 5%;
+    display: flex;
+    column-gap: 5px;
+}
+
+div.register form div.profilePhoto {
+    height: 15%;
+}
+
+div.register form div.description {
+    height: 15%;
+}
+
+
+div.register form div select,
+div.register form div input,
+div.register form div textarea {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-size: 21px;
+    border-radius: 30px;
+    border: 1px solid;
+    flex: 1;
+}
+
+div.register form div.profilePhoto input {
+    height: 15%;
+}
+
+div.register form div.description label {
+    align-self: flex-start;
+    margin-top: 1%;
+}
+
+div.register form div.date input {
+    width: 20%;
+    flex: 1;
+}
+
+div.register form div label {
+    font-size: 21px;
+    width: auto;
+    align-self: center;
+}
+
+div.register form button {
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    font-size: 21px;
+    border-radius: 30px;
+    width: 30%;
+    transition: all 0.1s;
+
+}
+
+div.register form button:active {
+    border: 1px solid rgb(153, 148, 148);
+
+}
