@@ -10,18 +10,7 @@ import Comments from "./more-page-components/comments";
 function Layout() {
     return (
 
-        <div className="routes">
-            <Routes>
-                <Route exact path="/" element={<RootPage />}></Route>
-                <Route path="more-pictures" element={<MorePictures />}></Route>
-                <Route path="add-picture" element={<AddPictures />}></Route>
-                <Route path="register-account" element={<Register />}></Route>
-                <Route path="login-account" element={<Login />}></Route>
-
-                <Route path={`more-pictures/picture/:id`} element={<Comments painting={":id"} />}></Route>
-            </Routes>
-
-        </div>
+        <RootPage />
     );
 }
 export default Layout;
