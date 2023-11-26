@@ -11,7 +11,7 @@ import Comments from './pages/more-page-components/comments';
 function App() {
   return (
     <div className="App">
-
+      <Menu />
       <Routes>
         <Route exact path="/" element={<Layout />}></Route>
         <Route path="more-pictures" element={<MorePictures />}></Route>

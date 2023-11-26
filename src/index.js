@@ -9,7 +9,6 @@ import Menu from './pages/menu';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Menu />
     <App />
   </BrowserRouter>
 
